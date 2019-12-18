@@ -188,7 +188,7 @@ while 1:
 
     if visual:
         cv2.imshow("OpenPose's stolen hand tracking network in Keras", image_out)
-        cv2.waitKey(1)
+        cv2.waitKey(100)# for low fps 
 
 cap.release()
 
